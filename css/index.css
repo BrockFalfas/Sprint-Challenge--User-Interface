@@ -179,6 +179,7 @@ header nav a:hover {
     width: 800px;
     margin: 0;
     vertical-align: 0%;
+    padding: 20px;
 }
   
 .brock {
@@ -192,6 +193,8 @@ button {
     background-color:white;
     border-radius: 5px;
     border: 1px solid black;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .workTogether {
@@ -213,4 +216,12 @@ button {
 .top-about-content {
     border-bottom: 1px dotted;
     padding: 20px;
+}
+
+.alignment {
+    vertical-align: 0%;
+}
+
+.brockheader {
+    padding-top: 20px;
 }
