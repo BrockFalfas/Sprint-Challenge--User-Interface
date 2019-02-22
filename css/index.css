@@ -129,7 +129,6 @@ p {
 footer {
     width: 100%;
     background: black;
-    margin: -10px;
 }
 
 footer nav {
@@ -179,26 +178,30 @@ header nav a:hover {
     width: 800px;
     margin: 0;
     vertical-align: 0%;
-    padding: 20px;
+    padding-top: 20px;
+    zoom: 110%;
 }
   
 .brock {
     box-sizing: border-box;
-    width: 50%;
-    margin: 0;
+    width: 40%;
+    margin: 20px;
     border-bottom: 1px dotted black;
 }
 
 button {
     background-color:white;
     border-radius: 5px;
-    border: 1px solid black;
+    border: 2px solid black;
     margin-top: 20px;
     margin-bottom: 20px;
+    width: 100px;
+    height: 30px;
 }
 
 .workTogether {
-    margin: 30px 0px 30px 0px;
+    margin-bottom: 20px;
+    padding: 20px;
 }
 
 .logo {
@@ -224,4 +227,8 @@ button {
 
 .brockheader {
     padding-top: 20px;
+}
+
+.about-pic-size {
+    width: 300px;
 }
