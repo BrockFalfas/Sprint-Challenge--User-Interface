@@ -80,7 +80,7 @@ p {
 }
 
 .top-content .text-container {
-    width: 48%;
+    width: 47%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
@@ -143,4 +143,92 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+}
+
+header nav {
+    margin-top: 40px;
+    margin-left: 35px; 
+    width: 610px;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+}
+
+header nav a:hover {
+    color: dodgerblue;
+}
+
+.about {
+    border-bottom: 1px dotted black;
+}
+
+.about-main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    margin: 0;
+    vertical-align: 0%;
+    padding-top: 20px;
+    zoom: 110%;
+}
+  
+.brock {
+    box-sizing: border-box;
+    width: 40%;
+    margin: 20px;
+    border-bottom: 1px dotted black;
+}
+
+button {
+    background-color:white;
+    border-radius: 5px;
+    border: 2px solid black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100px;
+    height: 30px;
+}
+
+.workTogether {
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.logo {
+    justify-content: flex-start;
+}
+
+.logoM {
+    margin-bottom: 20px;
+}
+
+.main-header {
+    margin-top: 30px;
+}
+
+.top-about-content {
+    border-bottom: 1px dotted;
+    padding: 20px;
+}
+
+.alignment {
+    vertical-align: 0%;
+}
+
+.brockheader {
+    padding-top: 20px;
+}
+
+.about-pic-size {
+    width: 300px;
 }
